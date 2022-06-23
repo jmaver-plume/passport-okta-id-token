@@ -39,7 +39,7 @@ app.post(
     expectedClientId: "0oa5h93ocjgurRFu05d7",
     expectedNonce:
       "8V7Okhr8WqMGsXPQJaGy1Nu4GT5W05BfIbYlagBd587tryHKW6wWvQQiYvKFoZfJ",
-    getIdTokenFromRequest: (req) => req.body.id_token,
+    getIdTokenFromReq: (req) => req.body.id_token,
     session: false,
   }),
   function (req, res) {
